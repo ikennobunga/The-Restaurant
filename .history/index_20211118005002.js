@@ -1,0 +1,2 @@
+const {getName, } = require('./user');
+

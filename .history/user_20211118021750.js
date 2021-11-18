@@ -1,0 +1,7 @@
+ {
+  getName: () => {
+
+  }
+}
+
+module.exports = User

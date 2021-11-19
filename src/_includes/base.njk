@@ -7,6 +7,12 @@
   <title>{{title}}</title>
 </head>
 <body>
-  {{content | safe}}
+  {%include "layouts/header.njk"%}
+  <main>
+    {%block content%}
+      {{content | safe}}
+    {%endblock content%}
+  </main>
+ {%include "layouts/footer.njk"%}
 </body>
 </html>
